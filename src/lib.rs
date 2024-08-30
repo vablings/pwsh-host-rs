@@ -1,15 +1,14 @@
-mod bindings;
-mod cli_xml;
-mod context;
-mod delegate_loader;
-mod error;
-mod host_detect;
-mod host_exit_code;
-mod hostfxr;
-mod loader;
-mod tests;
-mod time;
-
+pub mod bindings;
+pub mod cli_xml;
+pub mod context;
+pub mod delegate_loader;
+pub mod error;
+pub mod host_detect;
+pub mod host_exit_code;
+pub mod hostfxr;
+pub mod loader;
+pub mod tests;
+pub mod time;
 extern crate libc;
 #[macro_use]
 extern crate dlopen_derive;
